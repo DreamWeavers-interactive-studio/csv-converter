@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    basePath: process.env.NODE_ENV === 'production' ? '/ConverterCsv/csv-converter' : '',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/ConverterCsv/csv-converter/' : '',
-    output: 'export',
+    basePath: '/csv-converter',
+    assetPrefix: '/csv-converter/',
 };
 
 export default nextConfig;
