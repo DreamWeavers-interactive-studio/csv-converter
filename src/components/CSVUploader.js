@@ -47,8 +47,8 @@ export default function CSVConverter() {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gray-900">
             <div className="w-full max-w-md p-6 bg-gray-800 rounded-lg shadow-xl">
-                <h2 className="mb-4 text-2xl font-bold text-white">Convertir Archivo CSV</h2>
-                <p className="mb-4 text-gray-300">Seleccione un archivo CSV para convertir.</p>
+                <h2 className="mb-4 text-2xl font-bold text-white">Reemplazar Puntuacion CSV</h2>
+                <p className="mb-4 text-gray-300">Seleccione un archivo CSV para Reemplazar la puntuacion.</p>
                 <form onSubmit={convertAndDownload}>
                     <div className="mb-4">
                         <label className="block mb-2 text-sm font-medium text-gray-300" htmlFor="csv-file">
@@ -75,7 +75,7 @@ export default function CSVConverter() {
                         type="submit"
                         className="w-full px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
                     >
-                        Convertir Archivo
+                        Reemplazar Puntuacion
                     </button>
                 </form>
             </div>
