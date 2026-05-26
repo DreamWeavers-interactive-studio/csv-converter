@@ -1,17 +1,17 @@
 import "./globals.css";
-// import { Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 
-// const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata = {
-//   title: "semicolon to comma",
-//   description: "semicolon to comma",
-// };
+export const metadata = {
+  title: "semicolon to comma",
+  description: "semicolon to comma",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
