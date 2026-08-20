@@ -1,7 +1,7 @@
-import CSVUploader from '@/components/CSVUploader';
+import CSVConverter from '@/components/CSVConverter';
 
 export default function Home() {
   return (
-    <CSVUploader />
+    <CSVConverter />
   );
 }
